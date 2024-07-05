@@ -9,6 +9,7 @@ namespace Assignments
 {
     internal class Program
     {
+        #region Functions
         static void SwapValueByValue(int FirstNumber, int SecondNumber)
         {
             int Temp = FirstNumber;
@@ -79,7 +80,8 @@ namespace Assignments
             }
             int[] Result = { Min, Max };
             return Result;
-        }
+        } 
+        #endregion
         static void Main(string[] args)
         {
             #region Q01
