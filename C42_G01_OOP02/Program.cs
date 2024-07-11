@@ -35,8 +35,11 @@ namespace C42_G01_OOP02
             Console.WriteLine(Employee.TheOldest());
             #endregion
 
-            #region Q03
-
+            #region Q06
+            Employee[] EmpArray = new Employee[3];
+            EmpArray[0] = new Employee(1, "Karim",1, 4000, 16, 12, 2017, Gender.Male);
+            EmpArray[1] = new Employee(2, "Noha",4, 5000, 20, 11, 2020, Gender.Female);
+            EmpArray[2] = new Employee(3, "Fayez",15, 6000, 12, 08, 2017, Gender.Male);
             #endregion
         }
     }
