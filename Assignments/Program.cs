@@ -114,7 +114,7 @@ namespace Assignments
             Console.WriteLine(SumArrayByValue(Ages)); // 150
             Console.WriteLine(Ages[0]); // 100
 
-            // On passing them by reference, we're changing the object itself temorarily. It's the same result but different mechanism
+            // On passing them by reference, we're changing the object itself temporarily. It's the same result but different mechanism
             int[] Salaries = { 1000, 1500, 1500 };
             Console.WriteLine(SumArrayByRef(ref Salaries)); // 3100
             Console.WriteLine(Salaries[0]); // 100
