@@ -113,6 +113,7 @@ namespace C42_G01_OOP04
             #endregion
 
 
+            #region Notification Service
             // Question 03:
             // we define the INotificationService interface with a method SendNotification that
             // takes a recipient and a message as parameters.
@@ -139,7 +140,8 @@ namespace C42_G01_OOP04
             sms.SendNotification("Karim", "Hello there");
 
             PushNotificationService push = new PushNotificationService();
-            push.SendNotification("Karim", "Hello there");
+            push.SendNotification("Karim", "Hello there"); 
+            #endregion
         }
     }
 }
