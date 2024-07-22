@@ -112,7 +112,6 @@ namespace C42_G01_OOP04
             Console.WriteLine(TestAuthentication.AuthorizeUser("Karim", "Admin"));
             #endregion
 
-
             #region Notification Service
             // Question 03:
             // we define the INotificationService interface with a method SendNotification that
