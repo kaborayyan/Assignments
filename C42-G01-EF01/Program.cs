@@ -4,7 +4,11 @@
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello, World!");
+            // For relation between Student and Department one to many
+            // Check Classes Student - Department
+
+            // For relation Many to Many Student and Course
+            // Check Classes Student - Course - StudentCourse 
         }
     }
 }

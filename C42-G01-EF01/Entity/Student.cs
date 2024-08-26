@@ -15,5 +15,14 @@ namespace C42_G01_EF01.Entity
         public string LastName { get; set; }
         public string Address { get; set; }
         public int Age { get; set; }
+
+        [ForeignKey("Department")]
+        public int? DepartmentID { get; set; }
+
+        // Navigational Property => One
+        public Department Department { get; set; }
+
+        // Navigational Property for many to many with fields
+        public ICollection<StudentCourse> StudentCourses { get; set; } = new HashSet<StudentCourse>();
     }
 }
